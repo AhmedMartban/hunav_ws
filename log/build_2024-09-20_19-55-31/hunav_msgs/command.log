@@ -1,0 +1,4 @@
+Invoking command in '/home/ahmo030/hunav_ws/build/hunav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_msgs -- -j16 -l16
+Invoked command in '/home/ahmo030/hunav_ws/build/hunav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_msgs -- -j16 -l16
+Invoking command in '/home/ahmo030/hunav_ws/build/hunav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_msgs
+Invoked command in '/home/ahmo030/hunav_ws/build/hunav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_msgs

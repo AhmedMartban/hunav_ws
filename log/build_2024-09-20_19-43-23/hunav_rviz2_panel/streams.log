@@ -1,0 +1,180 @@
+[0.206s] Invoking command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ahmo030/hunav_ws/src/hunav_sim/hunav_rviz2_panel -DCMAKE_INSTALL_PREFIX=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.274s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.378s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.385s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.664s] -- Found Python3: /home/ahmo030/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[0.755s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.781s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.785s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.790s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] -- Found nav2_util: 1.1.16 (/opt/ros/humble/share/nav2_util/cmake)
+[1.612s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.614s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.716s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.827s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.019s] -- Looking for pthread.h
+[2.246s] -- Looking for pthread.h - found
+[2.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.425s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.426s] -- Found Threads: TRUE  
+[2.897s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.911s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.912s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.161s] -- Found hunav_msgs: 1.0.0 (/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/cmake)
+[3.214s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.726s] -- Found rviz_common: 11.2.13 (/opt/ros/humble/share/rviz_common/cmake)
+[3.818s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[3.888s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.957s] -- Found OGRE
+[3.958s] --   static     : OFF
+[3.958s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.959s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.959s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.959s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.959s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.960s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.960s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.960s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.960s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.960s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.960s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.167s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[4.226s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[5.065s] -- Found X11: /usr/include   
+[5.082s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[5.221s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[5.221s] -- Looking for gethostbyname
+[5.281s] -- Looking for gethostbyname - found
+[5.281s] -- Looking for connect
+[5.323s] -- Looking for connect - found
+[5.323s] -- Looking for remove
+[5.379s] -- Looking for remove - found
+[5.379s] -- Looking for shmat
+[5.418s] -- Looking for shmat - found
+[5.418s] -- Looking for IceConnectionNumber in ICE
+[5.487s] -- Looking for IceConnectionNumber in ICE - found
+[5.640s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[6.141s] -- Found rviz_default_plugins: 11.2.13 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[6.773s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.996s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.000s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.000s] -- Configured cppcheck include dirs: /home/ahmo030/hunav_ws/src/hunav_sim/hunav_rviz2_panel/include
+[7.000s] -- Configured cppcheck exclude dirs and/or files: 
+[7.003s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.003s] -- Configured cpplint exclude dirs and/or files: 
+[7.003s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.004s] -- Added test 'lint_cmake' to check CMake code style
+[7.005s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.008s] -- Added test 'uncrustify' to check C / C++ code style
+[7.008s] -- Configured uncrustify additional arguments: 
+[7.008s] -- Added test 'xmllint' to check XML markup files
+[7.011s] -- Configuring done
+[7.378s] -- Generating done
+[7.380s] -- Build files have been written to: /home/ahmo030/hunav_ws/build/hunav_rviz2_panel
+[7.389s] Invoked command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ahmo030/hunav_ws/src/hunav_sim/hunav_rviz2_panel -DCMAKE_INSTALL_PREFIX=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel
+[7.389s] Invoking command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_rviz2_panel -- -j16 -l16
+[7.421s] [ 16%] [34m[1mAutomatic MOC for target hunav_rviz2_panel[0m
+[11.513s] [ 16%] Built target hunav_rviz2_panel_autogen
+[11.534s] [ 66%] [32mBuilding CXX object CMakeFiles/hunav_rviz2_panel.dir/src/actor_panel.cpp.o[0m
+[11.534s] [ 66%] [32mBuilding CXX object CMakeFiles/hunav_rviz2_panel.dir/hunav_rviz2_panel_autogen/mocs_compilation.cpp.o[0m
+[11.534s] [ 66%] [32mBuilding CXX object CMakeFiles/hunav_rviz2_panel.dir/src/metrics_panel.cpp.o[0m
+[11.537s] [ 83%] [32mBuilding CXX object CMakeFiles/hunav_rviz2_panel.dir/src/goal_tool.cpp.o[0m
+[22.125s] [100%] [32m[1mLinking CXX shared library libhunav_rviz2_panel.so[0m
+[24.573s] [100%] Built target hunav_rviz2_panel
+[24.580s] Invoked command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_rviz2_panel -- -j16 -l16
+[24.604s] Invoking command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_rviz2_panel
+[24.609s] -- Install configuration: ""
+[24.609s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/plugins_description.xml
+[24.609s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib/libhunav_rviz2_panel.so
+[24.611s] -- Set runtime path of "/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib/libhunav_rviz2_panel.so" to ""
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/include/
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/include//headers
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/include//headers/metrics_panel.hpp
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/include//headers/actor_panel.hpp
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/include//headers/goal_tool.hpp
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/include//headers/goal_common.hpp
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/include//headers/goal_pose_updater.hpp
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes
+[24.611s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/regular_man.dae
+[24.670s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/elegant_man.dae
+[24.734s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures
+[24.734s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_casualsuit01_diffuse.png
+[25.028s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/eyebrow001.png
+[25.040s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_worksuit01_diffuse.png
+[25.183s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_casualsuit04_normal.png
+[25.304s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_casualsuit06_diffuse.png
+[25.339s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/short02_diffuse.png
+[25.389s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/shoes01_diffuse.png
+[25.414s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/middleage_darkskinned_male_diffuse.png
+[25.447s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/short03_diffuse.png
+[25.482s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/shoes03_diffuse.png
+[25.501s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/eyelashes01.png
+[25.505s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/shoes05_diffuse.png
+[25.528s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/short01_diffuse.png
+[25.563s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_elegantsuit01_diffuse.png
+[25.593s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/middleage_lightskinned_male_diffuse.png
+[25.647s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/female_casualsuit01_diffuse.png
+[25.691s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/shoes01_normal.png
+[25.709s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/brown_eye.png
+[25.730s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_casualsuit06_normal.png
+[25.761s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_worksuit01_normal.png
+[25.915s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_casualsuit04_diffuse.png
+[25.956s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/braid01_diffuse.png
+[25.994s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/female_casualsuit01_normal.png
+[26.088s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/textures/male_casualsuit01_normal.png
+[26.126s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/worker_man.dae
+[26.154s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/casual_man.dae
+[26.193s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/ring.dae
+[26.201s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/walk.dae
+[26.234s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/meshes/elegant_woman.dae
+[26.273s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/launch
+[26.273s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/launch/hunav_rviz2_launch.py
+[26.273s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/launch/rviz2.rviz
+[26.283s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps
+[26.283s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/bookstore.yaml
+[26.283s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/small_warehouse.yaml
+[26.283s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/map_cafe2.pgm
+[26.293s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/small_house.pgm
+[26.309s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/small_house.yaml
+[26.309s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/small_warehouse.pgm
+[26.325s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/cafe.pgm
+[26.564s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/cafe.yaml
+[26.579s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/bookstore.pgm
+[26.590s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/map_cafe2.yaml
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/environment/library_path.sh
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/environment/library_path.dsv
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/ament_index/resource_index/package_run_dependencies/hunav_rviz2_panel
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/ament_index/resource_index/parent_prefix_path/hunav_rviz2_panel
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/environment/ament_prefix_path.sh
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/environment/ament_prefix_path.dsv
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/environment/path.sh
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/environment/path.dsv
+[26.591s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/local_setup.bash
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/local_setup.sh
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/local_setup.zsh
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/local_setup.dsv
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.dsv
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/ament_index/resource_index/packages/hunav_rviz2_panel
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/hunav_rviz2_panel
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/hunav_rviz2_panelExport.cmake
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/hunav_rviz2_panelExport-noconfig.cmake
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/ament_cmake_export_targets-extras.cmake
+[26.592s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.593s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/hunav_rviz2_panelConfig.cmake
+[26.593s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/hunav_rviz2_panelConfig-version.cmake
+[26.593s] -- Installing: /home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.xml
+[26.595s] Invoked command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_rviz2_panel

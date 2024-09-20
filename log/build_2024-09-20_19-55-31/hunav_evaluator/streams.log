@@ -1,0 +1,21 @@
+[0.501s] Invoking command in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_evaluator': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/build/hunav_evaluator/prefix_override:/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hunav_evaluator build --build-base /home/ahmo030/hunav_ws/build/hunav_evaluator/build install --record /home/ahmo030/hunav_ws/build/hunav_evaluator/install.log --single-version-externally-managed install_data
+[0.673s] running egg_info
+[0.673s] writing ../../../build/hunav_evaluator/hunav_evaluator.egg-info/PKG-INFO
+[0.674s] writing dependency_links to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/dependency_links.txt
+[0.674s] writing entry points to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/entry_points.txt
+[0.674s] writing requirements to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/requires.txt
+[0.674s] writing top-level names to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/top_level.txt
+[0.677s] reading manifest file '../../../build/hunav_evaluator/hunav_evaluator.egg-info/SOURCES.txt'
+[0.678s] writing manifest file '../../../build/hunav_evaluator/hunav_evaluator.egg-info/SOURCES.txt'
+[0.678s] running build
+[0.678s] running build_py
+[0.678s] running install
+[0.678s] running install_lib
+[0.679s] running install_data
+[0.679s] running install_egg_info
+[0.680s] removing '/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator-1.0.0-py3.10.egg-info' (and everything under it)
+[0.680s] Copying ../../../build/hunav_evaluator/hunav_evaluator.egg-info to /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator-1.0.0-py3.10.egg-info
+[0.681s] running install_scripts
+[0.693s] Installing hunav_evaluator_node script to /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/hunav_evaluator
+[0.693s] writing list of installed files to '/home/ahmo030/hunav_ws/build/hunav_evaluator/install.log'
+[0.707s] Invoked command in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_evaluator' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/build/hunav_evaluator/prefix_override:/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hunav_evaluator build --build-base /home/ahmo030/hunav_ws/build/hunav_evaluator/build install --record /home/ahmo030/hunav_ws/build/hunav_evaluator/install.log --single-version-externally-managed install_data

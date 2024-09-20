@@ -1,0 +1,13 @@
+{
+  "package_name": "hunav_msgs",
+  "non_idl_tuples": [
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:msg/Agent.msg",
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:msg/Agents.msg",
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:msg/AgentBehavior.msg",
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:srv/ComputeAgents.srv",
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:srv/ComputeAgent.srv",
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:srv/MoveAgent.srv",
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:srv/GetAgents.srv",
+    "/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs:srv/ResetAgents.srv"
+  ]
+}

@@ -1,0 +1,682 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/home/ahmo030/.local/bin/colcon', 'build']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77a77c02b100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77a77c11f820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77a77c11f820>>, mixin_verb=('build',))
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.194s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ahmo030/hunav_ws'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_gazebo_wrapper) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hunav_gazebo_wrapper' with type 'ros.ament_cmake' and name 'hunav_gazebo_wrapper'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_agent_manager) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hunav_sim/hunav_agent_manager' with type 'ros.ament_cmake' and name 'hunav_agent_manager'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_evaluator) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hunav_sim/hunav_evaluator' with type 'ros.ament_python' and name 'hunav_evaluator'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_msgs) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hunav_sim/hunav_msgs' with type 'ros.ament_cmake' and name 'hunav_msgs'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_rviz2_panel) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hunav_sim/hunav_rviz2_panel' with type 'ros.ament_cmake' and name 'hunav_rviz2_panel'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/hunav_sim) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hunav_sim/hunav_sim' with type 'ros.ament_cmake' and name 'hunav_sim'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunav_sim/images) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/bin) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/include) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/media) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/obj) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightsfm/src) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/face_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/face_detector) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/face_detector) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/leg_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/leg_detector) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/leg_detector) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_msgs) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/people/people_msgs' with type 'ros.ament_cmake' and name 'people_msgs'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_tracking_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_tracking_filter) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_tracking_filter) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_velocity_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_velocity_tracker) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/people/people_velocity_tracker) ignored
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ahmo030/hunav_ws/install
+[0.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hunav_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'hunav_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmo030/hunav_ws/build/hunav_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmo030/hunav_ws/install/hunav_msgs', 'merge_install': False, 'path': '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'people_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmo030/hunav_ws/build/people_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmo030/hunav_ws/install/people_msgs', 'merge_install': False, 'path': '/home/ahmo030/hunav_ws/src/people/people_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_agent_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'hunav_agent_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmo030/hunav_ws/build/hunav_agent_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmo030/hunav_ws/install/hunav_agent_manager', 'merge_install': False, 'path': '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_agent_manager', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_evaluator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'hunav_evaluator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmo030/hunav_ws/build/hunav_evaluator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmo030/hunav_ws/install/hunav_evaluator', 'merge_install': False, 'path': '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_evaluator', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_gazebo_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'hunav_gazebo_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper', 'merge_install': False, 'path': '/home/ahmo030/hunav_ws/src/hunav_gazebo_wrapper', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_rviz2_panel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'hunav_rviz2_panel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel', 'merge_install': False, 'path': '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_rviz2_panel', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'hunav_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'hunav_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmo030/hunav_ws/build/hunav_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmo030/hunav_ws/install/hunav_sim', 'merge_install': False, 'path': '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_sim', 'symlink_install': False, 'test_result_base': None}
+[0.270s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.271s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs' with build type 'ament_cmake'
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_msgs'
+[0.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ahmo030/hunav_ws/src/people/people_msgs' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ahmo030/hunav_ws/src/people/people_msgs'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_msgs -- -j16 -l16
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/people_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/people_msgs -- -j16 -l16
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_msgs -- -j16 -l16
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/people_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/people_msgs -- -j16 -l16
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/people_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/people_msgs
+[0.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_msgs
+[0.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(people_msgs)
+[0.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/people_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/people_msgs
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs' for CMake module files
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs' for CMake config files
+[0.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'cmake_prefix_path')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.sh'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/lib'
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'ld_library_path_lib')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.sh'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/bin'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/lib/pkgconfig/people_msgs.pc'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/lib/python3.10/site-packages'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/bin'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.sh'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.bash'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.zsh'
+[0.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/people_msgs/share/colcon-core/packages/people_msgs)
+[0.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_msgs)
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs' for CMake module files
+[0.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_msgs
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs' for CMake config files
+[0.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_msgs', 'cmake_prefix_path')
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/cmake_prefix_path.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/cmake_prefix_path.dsv'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/lib'
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_msgs', 'ld_library_path_lib')
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/ld_library_path_lib.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/ld_library_path_lib.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/ld_library_path_lib.sh'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/bin'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/lib/pkgconfig/hunav_msgs.pc'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/lib/python3.10/site-packages'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/bin'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.sh'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.bash'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.zsh'
+[0.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_msgs/share/colcon-core/packages/hunav_msgs)
+[0.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(people_msgs)
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs' for CMake module files
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs' for CMake config files
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'cmake_prefix_path')
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.dsv'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.sh'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/lib'
+[0.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'ld_library_path_lib')
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.ps1'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.sh'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/bin'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/lib/pkgconfig/people_msgs.pc'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/lib/python3.10/site-packages'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/people_msgs/bin'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.ps1'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.dsv'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.sh'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.bash'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/people_msgs/share/people_msgs/package.zsh'
+[0.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/people_msgs/share/colcon-core/packages/people_msgs)
+[0.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_msgs)
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs' for CMake module files
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs' for CMake config files
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_msgs', 'cmake_prefix_path')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/cmake_prefix_path.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/cmake_prefix_path.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/cmake_prefix_path.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/lib'
+[0.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_msgs', 'ld_library_path_lib')
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/ld_library_path_lib.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/ld_library_path_lib.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/hook/ld_library_path_lib.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/bin'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/lib/pkgconfig/hunav_msgs.pc'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/lib/python3.10/site-packages'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_msgs/bin'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.sh'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.bash'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_msgs/share/hunav_msgs/package.zsh'
+[0.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_msgs/share/colcon-core/packages/hunav_msgs)
+[0.893s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_agent_manager' with build type 'ament_cmake'
+[0.893s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_agent_manager'
+[0.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.896s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_evaluator' with build type 'ament_python'
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_evaluator', 'ament_prefix_path')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/hook/ament_prefix_path.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/hook/ament_prefix_path.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/hook/ament_prefix_path.sh'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.899s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_rviz2_panel' with build type 'ament_cmake'
+[0.899s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_rviz2_panel'
+[0.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ahmo030/hunav_ws/src/hunav_gazebo_wrapper' with build type 'ament_cmake'
+[0.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ahmo030/hunav_ws/src/hunav_gazebo_wrapper'
+[0.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_agent_manager': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_agent_manager -- -j16 -l16
+[1.105s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_evaluator'
+[1.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_rviz2_panel -- -j16 -l16
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper -- -j16 -l16
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_agent_manager' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_agent_manager -- -j16 -l16
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_agent_manager': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_agent_manager
+[1.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_agent_manager)
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager' for CMake module files
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_agent_manager' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_agent_manager
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager' for CMake config files
+[1.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_agent_manager', 'cmake_prefix_path')
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/hook/cmake_prefix_path.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/hook/cmake_prefix_path.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/hook/cmake_prefix_path.sh'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/lib'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/bin'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/lib/pkgconfig/hunav_agent_manager.pc'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/lib/python3.10/site-packages'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/bin'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.sh'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.bash'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.zsh'
+[1.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/colcon-core/packages/hunav_agent_manager)
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper -- -j16 -l16
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper
+[1.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_agent_manager)
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager' for CMake module files
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager' for CMake config files
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_agent_manager', 'cmake_prefix_path')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/hook/cmake_prefix_path.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/hook/cmake_prefix_path.dsv'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/hook/cmake_prefix_path.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/lib'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/bin'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/lib/pkgconfig/hunav_agent_manager.pc'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/lib/python3.10/site-packages'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_agent_manager/bin'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.sh'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.bash'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/hunav_agent_manager/package.zsh'
+[1.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_agent_manager/share/colcon-core/packages/hunav_agent_manager)
+[1.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_gazebo_wrapper)
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper' for CMake module files
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper' for CMake config files
+[1.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_gazebo_wrapper
+[1.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_gazebo_wrapper', 'cmake_prefix_path')
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/cmake_prefix_path.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/cmake_prefix_path.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/cmake_prefix_path.sh'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib'
+[1.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_gazebo_wrapper', 'ld_library_path_lib')
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/ld_library_path_lib.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/ld_library_path_lib.dsv'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/ld_library_path_lib.sh'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/bin'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib/pkgconfig/hunav_gazebo_wrapper.pc'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib/python3.10/site-packages'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/bin'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.sh'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.bash'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.zsh'
+[1.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/colcon-core/packages/hunav_gazebo_wrapper)
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_rviz2_panel -- -j16 -l16
+[1.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_gazebo_wrapper)
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper' for CMake module files
+[1.308s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper' for CMake config files
+[1.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_gazebo_wrapper', 'cmake_prefix_path')
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/cmake_prefix_path.ps1'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/cmake_prefix_path.dsv'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/cmake_prefix_path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib'
+[1.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_gazebo_wrapper', 'ld_library_path_lib')
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/ld_library_path_lib.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/ld_library_path_lib.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/hook/ld_library_path_lib.sh'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/bin'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib/pkgconfig/hunav_gazebo_wrapper.pc'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib/python3.10/site-packages'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/bin'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.sh'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.bash'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/package.zsh'
+[1.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/share/colcon-core/packages/hunav_gazebo_wrapper)
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_rviz2_panel
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_rviz2_panel)
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel' for CMake module files
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_rviz2_panel' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_rviz2_panel
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel' for CMake config files
+[1.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_rviz2_panel', 'cmake_prefix_path')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/cmake_prefix_path.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/cmake_prefix_path.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/cmake_prefix_path.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib'
+[1.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_rviz2_panel', 'ld_library_path_lib')
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/ld_library_path_lib.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/ld_library_path_lib.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/ld_library_path_lib.sh'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/bin'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib/pkgconfig/hunav_rviz2_panel.pc'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib/python3.10/site-packages'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/bin'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.bash'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.zsh'
+[1.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/colcon-core/packages/hunav_rviz2_panel)
+[1.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_rviz2_panel)
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel' for CMake module files
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel' for CMake config files
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_rviz2_panel', 'cmake_prefix_path')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/cmake_prefix_path.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/cmake_prefix_path.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/cmake_prefix_path.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib'
+[1.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_rviz2_panel', 'ld_library_path_lib')
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/ld_library_path_lib.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/ld_library_path_lib.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/hook/ld_library_path_lib.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/bin'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib/pkgconfig/hunav_rviz2_panel.pc'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib/python3.10/site-packages'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/bin'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.dsv'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.sh'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.bash'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/package.zsh'
+[1.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/share/colcon-core/packages/hunav_rviz2_panel)
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_evaluator': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/build/hunav_evaluator/prefix_override:/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hunav_evaluator build --build-base /home/ahmo030/hunav_ws/build/hunav_evaluator/build install --record /home/ahmo030/hunav_ws/build/hunav_evaluator/install.log --single-version-externally-managed install_data
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_evaluator' for CMake module files
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_evaluator' returned '0': CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/build/hunav_evaluator/prefix_override:/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hunav_evaluator build --build-base /home/ahmo030/hunav_ws/build/hunav_evaluator/build install --record /home/ahmo030/hunav_ws/build/hunav_evaluator/install.log --single-version-externally-managed install_data
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_evaluator' for CMake config files
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_evaluator/lib'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_evaluator/bin'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/pkgconfig/hunav_evaluator.pc'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages'
+[1.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_evaluator', 'pythonpath')
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/hook/pythonpath.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/hook/pythonpath.dsv'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/hook/pythonpath.sh'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_evaluator/bin'
+[1.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_evaluator)
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/package.ps1'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/package.dsv'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/package.sh'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/package.bash'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/package.zsh'
+[1.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_evaluator/share/colcon-core/packages/hunav_evaluator)
+[1.607s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_sim' with build type 'ament_cmake'
+[1.607s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ahmo030/hunav_ws/src/hunav_sim/hunav_sim'
+[1.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_sim': AMENT_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_evaluator:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_msgs:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:/home/ahmo030/hunav_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/ahmo030/hunav_ws/install/hunav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_sim -- -j16 -l16
+[1.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_sim' returned '0': AMENT_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_evaluator:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_msgs:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:/home/ahmo030/hunav_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/ahmo030/hunav_ws/install/hunav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ahmo030/hunav_ws/build/hunav_sim -- -j16 -l16
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmo030/hunav_ws/build/hunav_sim': AMENT_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_evaluator:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_msgs:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:/home/ahmo030/hunav_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/ahmo030/hunav_ws/install/hunav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_sim
+[1.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_sim)
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim' for CMake module files
+[1.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmo030/hunav_ws/build/hunav_sim' returned '0': AMENT_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_evaluator:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_msgs:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel:/home/ahmo030/hunav_ws/install/hunav_agent_manager:/home/ahmo030/hunav_ws/install/people_msgs:/home/ahmo030/hunav_ws/install/hunav_msgs:/home/ahmo030/hunav_ws/install/hunav_sim:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper:/home/ahmo030/hunav_ws/install/hunav_evaluator:/opt/ros/humble LD_LIBRARY_PATH=/home/ahmo030/hunav_ws/install/hunav_rviz2_panel/lib:/home/ahmo030/hunav_ws/install/people_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_msgs/lib:/home/ahmo030/hunav_ws/install/hunav_gazebo_wrapper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages:/home/ahmo030/hunav_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/ahmo030/hunav_ws/install/hunav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ahmo030/hunav_ws/build/hunav_sim
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim' for CMake config files
+[1.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_sim', 'cmake_prefix_path')
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/hook/cmake_prefix_path.ps1'
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/hook/cmake_prefix_path.dsv'
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/hook/cmake_prefix_path.sh'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/bin'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/lib/pkgconfig/hunav_sim.pc'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/lib/python3.10/site-packages'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/bin'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.ps1'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.sh'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.bash'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.zsh'
+[1.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_sim/share/colcon-core/packages/hunav_sim)
+[1.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunav_sim)
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim' for CMake module files
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim' for CMake config files
+[1.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunav_sim', 'cmake_prefix_path')
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/hook/cmake_prefix_path.ps1'
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/hook/cmake_prefix_path.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/hook/cmake_prefix_path.sh'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/bin'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/lib/pkgconfig/hunav_sim.pc'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/lib/python3.10/site-packages'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/ahmo030/hunav_ws/install/hunav_sim/bin'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.sh'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.bash'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmo030/hunav_ws/install/hunav_sim/share/hunav_sim/package.zsh'
+[1.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmo030/hunav_ws/install/hunav_sim/share/colcon-core/packages/hunav_sim)
+[1.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.678s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.682s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.688s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmo030/hunav_ws/install/local_setup.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ahmo030/hunav_ws/install/_local_setup_util_ps1.py'
+[1.690s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmo030/hunav_ws/install/setup.ps1'
+[1.691s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmo030/hunav_ws/install/local_setup.sh'
+[1.691s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ahmo030/hunav_ws/install/_local_setup_util_sh.py'
+[1.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmo030/hunav_ws/install/setup.sh'
+[1.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmo030/hunav_ws/install/local_setup.bash'
+[1.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmo030/hunav_ws/install/setup.bash'
+[1.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmo030/hunav_ws/install/local_setup.zsh'
+[1.693s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmo030/hunav_ws/install/setup.zsh'

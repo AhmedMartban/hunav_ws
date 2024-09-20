@@ -1,0 +1,10 @@
+{
+  "package_name": "people_msgs",
+  "non_idl_tuples": [
+    "/home/ahmo030/hunav_ws/src/people/people_msgs:msg/People.msg",
+    "/home/ahmo030/hunav_ws/src/people/people_msgs:msg/Person.msg",
+    "/home/ahmo030/hunav_ws/src/people/people_msgs:msg/PersonStamped.msg",
+    "/home/ahmo030/hunav_ws/src/people/people_msgs:msg/PositionMeasurement.msg",
+    "/home/ahmo030/hunav_ws/src/people/people_msgs:msg/PositionMeasurementArray.msg"
+  ]
+}

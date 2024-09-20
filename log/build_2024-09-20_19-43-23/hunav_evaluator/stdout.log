@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../build/hunav_evaluator/hunav_evaluator.egg-info
+writing ../../../build/hunav_evaluator/hunav_evaluator.egg-info/PKG-INFO
+writing dependency_links to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/dependency_links.txt
+writing entry points to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/entry_points.txt
+writing requirements to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/requires.txt
+writing top-level names to ../../../build/hunav_evaluator/hunav_evaluator.egg-info/top_level.txt
+writing manifest file '../../../build/hunav_evaluator/hunav_evaluator.egg-info/SOURCES.txt'
+reading manifest file '../../../build/hunav_evaluator/hunav_evaluator.egg-info/SOURCES.txt'
+writing manifest file '../../../build/hunav_evaluator/hunav_evaluator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ahmo030/hunav_ws/build/hunav_evaluator/build
+creating /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib
+creating /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator
+copying hunav_evaluator/hunav_evaluator_node.py -> /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator
+copying hunav_evaluator/sfm.py -> /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator
+copying hunav_evaluator/hunav_metrics.py -> /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator
+copying hunav_evaluator/__init__.py -> /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator
+running install
+running install_lib
+creating /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator
+copying /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator/hunav_evaluator_node.py -> /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator
+copying /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator/sfm.py -> /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator
+copying /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator/hunav_metrics.py -> /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator
+copying /home/ahmo030/hunav_ws/build/hunav_evaluator/build/lib/hunav_evaluator/__init__.py -> /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator
+byte-compiling /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator/hunav_evaluator_node.py to hunav_evaluator_node.cpython-310.pyc
+byte-compiling /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator/sfm.py to sfm.cpython-310.pyc
+byte-compiling /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator/hunav_metrics.py to hunav_metrics.cpython-310.pyc
+byte-compiling /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ahmo030/hunav_ws/install/hunav_evaluator/share/ament_index
+creating /home/ahmo030/hunav_ws/install/hunav_evaluator/share/ament_index/resource_index
+creating /home/ahmo030/hunav_ws/install/hunav_evaluator/share/ament_index/resource_index/packages
+copying resource/hunav_evaluator -> /home/ahmo030/hunav_ws/install/hunav_evaluator/share/ament_index/resource_index/packages
+copying package.xml -> /home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator
+creating /home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/launch
+copying launch/hunav_evaluator_launch.py -> /home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/launch
+creating /home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/config
+copying config/metrics.yaml -> /home/ahmo030/hunav_ws/install/hunav_evaluator/share/hunav_evaluator/config
+running install_egg_info
+Copying ../../../build/hunav_evaluator/hunav_evaluator.egg-info to /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/python3.10/site-packages/hunav_evaluator-1.0.0-py3.10.egg-info
+running install_scripts
+Installing hunav_evaluator_node script to /home/ahmo030/hunav_ws/install/hunav_evaluator/lib/hunav_evaluator
+writing list of installed files to '/home/ahmo030/hunav_ws/build/hunav_evaluator/install.log'
